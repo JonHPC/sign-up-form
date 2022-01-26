@@ -18,6 +18,8 @@ body{
     background-color:#FFF7E6;
     color:#664E4E;
     height:100%;
+    min-height:800px;
+    min-width:800px;
 }
 
 .side-container{
@@ -71,7 +73,7 @@ body{
     flex-direction:column;
     justify-content:stretch;
     align-items: left;
-    font-size:1.5vw;
+    font-size:24px;
 }
 
 .input{
@@ -100,12 +102,12 @@ form{
 }
 
 label{
-    font-size:1vw;
+    font-size:16px;
 }
 
 input{
     border-radius: 4px;
-    height:1.5vw;
+    height:24px;
     border: 2px solid #664E4E;
     padding-left:8px;
     padding-top:4px;
@@ -114,7 +116,7 @@ input{
     color:#664E4E;
     background-color:#FFF7E6;
     transition:0.25s;
-    font-size:1vw;
+    font-size:16px;
 }
 
 input:focus, textarea:focus{
@@ -131,7 +133,7 @@ input:hover{
     grid-column:1 / 2;
     grid-row: 1 / 2;
     font-style:bold;
-    font-size:1.5vw;
+    font-size:24px;
 }
 
 .first-name-div{
@@ -183,7 +185,7 @@ input:hover{
     padding-right:128px;
     background-color:#f5ecd8;
     min-height: 33%;
-    font-size: 1vw;
+    font-size: 16px;
 }
 
 #submit-button{
@@ -195,7 +197,7 @@ input:hover{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 1vw;
+    font-size: 16px;
     transition-duration: 0.4s;
     cursor: pointer;
     border: 3px solid #DB8F5D;
@@ -210,7 +212,7 @@ input:hover{
     display:flex;
     justify-content: flex-start;
     align-items:center;
-    gap:0.5vw;
+    gap:8px;
 }
 
 #log-in-link{
