@@ -33,7 +33,6 @@ body{
 
 #side-image{
     flex-shrink: 0%;
-    min-width:100%;
     min-height:100%;
     position: relative;
     top:0;
@@ -54,6 +53,7 @@ body{
     display:flex;
     flex-direction:column;
     justify-content:space-evenly;
+    overflow:visible;
 }
 
 .top{
@@ -71,7 +71,7 @@ body{
     flex-direction:column;
     justify-content:stretch;
     align-items: left;
-    font-size:24px;
+    font-size:1.5vw;
 }
 
 .input{
@@ -89,17 +89,23 @@ body{
     
 }
 
+
 form{
     flex-grow:1;
+    flex-shrink:1;
     display:grid;
     grid-template-columns:4fr 1fr 4fr 3fr;
     grid-template-rows:repeat(4, 1fr);
     gap:8px;
 }
 
+label{
+    font-size:1vw;
+}
+
 input{
     border-radius: 4px;
-    height:24px;
+    height:1.5vw;
     border: 2px solid #664E4E;
     padding-left:8px;
     padding-top:4px;
@@ -108,6 +114,7 @@ input{
     color:#664E4E;
     background-color:#FFF7E6;
     transition:0.25s;
+    font-size:1vw;
 }
 
 input:focus, textarea:focus{
@@ -124,7 +131,7 @@ input:hover{
     grid-column:1 / 2;
     grid-row: 1 / 2;
     font-style:bold;
-    font-size:24px;
+    font-size:1.5vw;
 }
 
 .first-name-div{
@@ -176,6 +183,7 @@ input:hover{
     padding-right:128px;
     background-color:#f5ecd8;
     min-height: 33%;
+    font-size: 1vw;
 }
 
 #submit-button{
@@ -187,7 +195,7 @@ input:hover{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 1vw;
     transition-duration: 0.4s;
     cursor: pointer;
     border: 3px solid #DB8F5D;
@@ -202,7 +210,7 @@ input:hover{
     display:flex;
     justify-content: flex-start;
     align-items:center;
-    gap:8px;
+    gap:0.5vw;
 }
 
 #log-in-link{
